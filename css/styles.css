@@ -32,8 +32,15 @@ nav a {
 
 .section--dark {
     background-color: #232323;
+    color: #fff;
 }
 
 .section--primary {
     background-color: #54bd8f;
+}
+
+.section--primary h2,
+.section--primary h3,
+.section--primary h4 {
+    color: #fff;
 }
