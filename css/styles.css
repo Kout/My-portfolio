@@ -21,4 +21,8 @@ nav {
     background-color: #232323;
 }
 
+nav a {
+    color: #fff;
+}
+
 }
