@@ -9,6 +9,7 @@ body {
     background-color: #d6d6d6;
     color: #444;
     font-family: sans-serif;
+}
 
 h1,
 h2,
@@ -25,4 +26,14 @@ nav a {
     color: #fff;
 }
 
+.section--light {
+    background-color: #fff;
+}
+
+.section--dark {
+    background-color: #232323;
+}
+
+.section--primary {
+    background-color: #54bd8f;
 }
