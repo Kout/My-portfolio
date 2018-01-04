@@ -34,6 +34,8 @@ nav {
 
 nav a {
     color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /*  Sections 
