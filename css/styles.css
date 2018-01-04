@@ -8,6 +8,10 @@ dark grey: #232323
 /*  Typography and basic styles
     ******************************************************/
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #d6d6d6;
     color: #444;
