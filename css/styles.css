@@ -32,6 +32,11 @@ nav {
     background-color: #232323;
 }
 
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
