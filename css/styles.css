@@ -33,6 +33,10 @@ h2 {
 /*  Header and navigation
 ******************************************************/
 
+.logo-link {
+    padding: 0 1rem;
+}
+
 nav {
     background-color: #232323;
 }
