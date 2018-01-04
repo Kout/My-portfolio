@@ -5,7 +5,7 @@ text color: #444444
 dark grey: #232323
 */
 
-/*  Typography
+/*  Typography and basic styles
     ******************************************************/
 
 body {
@@ -25,8 +25,8 @@ h2 {
     text-transform: uppercase;
 }
 
-/*  Navigation 
-    ******************************************************/
+/*  Header and navigation
+******************************************************/
 
 nav {
     background-color: #232323;
@@ -51,7 +51,7 @@ nav a:focus {
     color: #444;
 }
 
-/*  Sections 
+/*  Sections
     ******************************************************/
 
 .section--light {
