@@ -63,6 +63,11 @@ nav a:focus {
 /*  Sections
     ******************************************************/
 
+.section,
+footer {
+    padding: 1rem;
+}
+
 .section--light {
     background-color: #fff;
 }
