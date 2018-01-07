@@ -13,7 +13,8 @@ html {
 }
 
 body {
-    margin: 0;
+    max-width: 1200px;
+    margin: auto;
     background-color: #d6d6d6;
     color: #444;
     font-family: 'Alegreya Sans', sans-serif;
