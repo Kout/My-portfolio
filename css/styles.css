@@ -16,14 +16,13 @@ body {
     margin: 0;
     background-color: #d6d6d6;
     color: #444;
-    font-family: sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 h1,
 h2,
 h3 {
     color: #54bd8f;
-    font-family: serif;
 }
 
 h1 {
