@@ -48,20 +48,35 @@ header {
 
 nav {
     flex: 1;
+    display: flex;
     background-color: #232323;
 }
 
 nav ul {
+    display: flex;
+    flex-flow: row wrap;
     list-style: none;
+    width: 100%;
     padding-left: 0;
+    margin: 0;
+}
+
+nav li {
+    flex: 1;
+    display: flex;
+    width: 100%;
 }
 
 nav a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     padding: 0.5rem 1.5rem;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    white-space: nowrap; /* prevent links with multiple words from wrapping */
 }
 
 nav a:hover,
