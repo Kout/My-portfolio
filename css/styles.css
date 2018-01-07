@@ -26,7 +26,7 @@ h3 {
     font-family: serif;
 }
 
-h2 {
+h1 {
     text-transform: uppercase;
 }
 
@@ -81,6 +81,7 @@ footer {
     background-color: #54bd8f;
 }
 
+.section--primary h1,
 .section--primary h2,
 .section--primary h3,
 .section--primary h4 {
