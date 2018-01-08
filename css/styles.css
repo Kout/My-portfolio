@@ -92,7 +92,7 @@ nav a:focus {
 
 .section,
 footer {
-    padding: 1rem;
+    padding: 3vw 6vw;   
 }
 
 .section--light {
@@ -128,8 +128,8 @@ footer {
     padding-left: 1rem;
     background: url('/img/jumbotron-background.jpg') center no-repeat;
     background-size: cover;
-    margin-right: -1rem;
-    margin-left: -1rem;
+    margin-right: -6vw;
+    margin-left: -6vw;
     color: #fff;
     font-size: 2rem;
 }
