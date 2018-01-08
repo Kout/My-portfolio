@@ -149,6 +149,12 @@ footer {
     line-height: 1;
     border-bottom: 8px solid #fff;
 }
+
+.jumbotron p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
 /*  Utilities
     ******************************************************/
 
