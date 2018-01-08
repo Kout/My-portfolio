@@ -133,6 +133,22 @@ footer {
     color: #fff;
     font-size: 2rem;
 }
+
+.jumbotron h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 2em;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.jumbotron strong {
+    color: #54bd8f;
+    /* workaround for custom text-decoration */
+    display: inline-block;
+    line-height: 1;
+    border-bottom: 8px solid #fff;
+}
 /*  Utilities
     ******************************************************/
 
