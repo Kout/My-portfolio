@@ -155,6 +155,13 @@ footer {
     font-size: 1.5em;
 }
 
+.claim {
+    padding: 3vw 6vw;
+    background-color: #d6d6d6;
+    font-size: 1.4em;
+    text-align: center;
+}
+
 /*  Utilities
     ******************************************************/
 
