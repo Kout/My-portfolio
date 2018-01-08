@@ -162,6 +162,35 @@ footer {
     text-align: center;
 }
 
+/*  Promo
+    ******************************************************/
+
+.section--promo {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.section--promo article {
+    padding: 0 2.5rem;
+}
+
+@media only screen and (min-width: 500px) {
+    
+    .section--promo article {
+        flex: 1 1 50%;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    
+    .section--promo article {
+        flex: 1 1 25%;
+    }
+
+}
+
 /*  Utilities
     ******************************************************/
 
