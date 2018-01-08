@@ -97,11 +97,11 @@ nav a:focus {
 }
 
 /*  Sections
-    ******************************************************/
+******************************************************/
 
 .section,
 footer {
-    padding: 3vw 6vw;   
+    padding: 3vw 6vw;
 }
 
 .section--light {
@@ -123,6 +123,9 @@ footer {
 .section--primary h4 {
     color: #fff;
 }
+
+/*  Jumbotron
+    ******************************************************/
 
 .section:first-child {
     padding-top: 2rem;
