@@ -223,6 +223,32 @@ footer {
     }
 }
 
+/*  About me section
+    ******************************************************/
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.about-image {
+    flex: 1 1 320px;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.about-image img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.about-text {
+    flex: 1 0 320px; /* image width */
+    max-width: 100%;
+    padding: 0 2rem;
+}
+
 /*  Utilities
     ******************************************************/
 
