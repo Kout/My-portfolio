@@ -184,8 +184,13 @@ footer {
 }
 
 .section--promo article {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
     padding: 0 2.5rem;
 }
+
 
 @media only screen and (min-width: 500px) {
     
@@ -196,11 +201,26 @@ footer {
 }
 
 @media only screen and (min-width: 900px) {
-    
+
+    .section--promo {
+        padding-top: 70px;
+    }
+
     .section--promo article {
         flex: 1 1 25%;
     }
 
+    .section--promo article:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -70px;
+        width: 140px;
+        height: 140px;
+        background-color: #d6d6d6;
+        border-radius: 0 0 50% 50%;
+        margin-top: -70px;
+    }
 }
 
 /*  Utilities
