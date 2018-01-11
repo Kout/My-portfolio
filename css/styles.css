@@ -36,8 +36,10 @@ h3 {
     color: #54bd8f;
 }
 
-h1 {
+h1,
+h2 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 /*  Header and navigation
@@ -183,6 +185,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.section--promo h2 {
+    text-transform: none;
 }
 
 .section--promo article {
