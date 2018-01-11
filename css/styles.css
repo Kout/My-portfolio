@@ -120,7 +120,9 @@ footer {
 .section--primary h1,
 .section--primary h2,
 .section--primary h3,
-.section--primary h4 {
+.section--primary h4,
+.section--dark h2,
+.section--dark a {
     color: #fff;
 }
 
