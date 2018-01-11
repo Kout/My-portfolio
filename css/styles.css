@@ -261,6 +261,17 @@ footer {
 /*  Utilities
     ******************************************************/
 
+footer p:first-child {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*  Utilities
+    ******************************************************/
+
 .accessible-hidden {
     position: absolute;
     top: 0;
