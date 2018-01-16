@@ -332,6 +332,10 @@ footer {
     background-color: #54bd8f;
 }
 
+.form-group input:focus {
+    background-color: rgba(255, 255, 255, .3);
+}
+
 /*  Utilities
     ******************************************************/
 
