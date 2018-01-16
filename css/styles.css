@@ -314,6 +314,8 @@ footer {
 }
 
 .form-group:not(:last-child) {
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid #fff;
 }
 
@@ -329,6 +331,7 @@ footer {
 }
 
 .form-group input {
+    flex: 1;
     background-color: #54bd8f;
 }
 
