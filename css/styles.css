@@ -305,6 +305,18 @@ footer {
     padding: 0 2rem;
 }
 
+/*  Contact form
+    ******************************************************/
+
+.form-group {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.form-group:not(:last-child) {
+    border-bottom: 1px solid #fff;
+}
+
 /*  Utilities
     ******************************************************/
 
