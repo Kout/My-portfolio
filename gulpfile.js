@@ -35,8 +35,8 @@ gulp.task('static:clean', function() {
 });
 
 gulp.task('static:copy', ['static:clean'], function() {
-	return gulp.src('src/static/**/*')
-			.pipe(gulp.dest('dist'));
+	return gulp.src('src/img/**/*')
+			.pipe(gulp.dest('dist/img/'));
 });
 
 gulp.task('build', ['css:compile', 'html:copy', 'static:copy']);
@@ -44,5 +44,5 @@ gulp.task('build', ['css:compile', 'html:copy', 'static:copy']);
 gulp.task('develop', ['build'], function() {
 	gulp.watch('src/scss/*', ['css:compile']); // watch for changes in SCSS
 	gulp.watch('src/**/*.html', ['html:copy']); // watch for changes in HTML
-	gulp.watch('src/static/**/*', ['static:copy']); // watch for changes in static files
+	gulp.watch('src/img/**/*', ['static:copy']); // watch for changes in static files
 });
