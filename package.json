@@ -14,4 +14,7 @@
   "author": "Martin Podloucký",
   "license": "MIT",
   "description": "A single page portfolio of projects created during Coding Bootcamp Praha in winter batch 2018.",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3"
+  }
 }
