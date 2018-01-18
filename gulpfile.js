@@ -1,6 +1,7 @@
 const gulp = require('gulp'),
       sass = require('gulp-sass'),
-      del  = require('del');
+      del  = require('del'),
+      rename = require("gulp-rename");
 
 // Delete all CSS files
 gulp.task('css:clean', function() {
@@ -11,7 +12,8 @@ gulp.task('css:clean', function() {
 gulp.task('css:compile', ['css:clean'], function() {
 	return gulp.src('src/scss/*.scss')
 			.pipe(sass())
-			.pipe(gulp.dest('dist/css'));
+			.pipe(rename('style.css'))
+			.pipe(gulp.dest('dist/css/'));
 });
 
 // Delete all HTML files
