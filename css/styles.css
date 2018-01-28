@@ -369,6 +369,7 @@ progress::-webkit-progress-bar {
 .form-contact {
     display: flex;
     flex-wrap: wrap;
+    max-width: 800px;
 }
 
 .form-group {
@@ -398,7 +399,8 @@ progress::-webkit-progress-bar {
     border: 0;
 }
 
-.form-group label {
+.form-group label,
+.form-group input {
     margin-right: 1rem;
 }
 
