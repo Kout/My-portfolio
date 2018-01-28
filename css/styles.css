@@ -11,7 +11,7 @@ dark grey: #232323
 html {
     /* apply a natural box layout model to all elements, but allowing components to change */
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 16px; /* = 1rem */
 }
 
 *,
@@ -57,7 +57,7 @@ header {
     flex-basis: 16vw;
     display: flex;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 1em;
 }
 
 nav {
@@ -86,8 +86,9 @@ nav a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5em 1.5em;
     color: #fff;
+    font-size: 1.125rem;
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap; /* prevent links with multiple words from wrapping */
@@ -140,9 +141,9 @@ footer {
 
 .jumbotron {
     padding-top: 8vw;
-    padding-right: 1rem;
+    padding-right: 1em;
     padding-bottom: 16vw;
-    padding-left: 1rem;
+    padding-left: 1em;
     background: url('../img/jumbotron-background.jpg') center no-repeat;
     background-size: cover;
     margin-right: -6vw;
@@ -199,7 +200,7 @@ footer {
     flex-flow: column nowrap;
     align-items: center;
     position: relative;
-    padding: 0 2.5rem;
+    padding: 0 2.5em;
 }
 
 
@@ -248,7 +249,7 @@ footer {
     align-items: center;
     height: 1.5rem;
     background: #232323;
-    margin-bottom: .25rem;
+    margin-bottom: .25em;
     color: #fff;
 }
 
@@ -271,8 +272,8 @@ progress {
     position: relative;
     max-width: 90%;
     height: 100%;
-    line-height: 1.5rem;
-    margin-left: .5rem;
+    line-height: 1.5em;
+    margin-left: .5em;
 }
 
 progress::after {
@@ -280,7 +281,7 @@ progress::after {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 0 .5rem;
+    margin: 0 .5em;
     color: #444444;
 }
 
@@ -332,7 +333,7 @@ progress::-webkit-progress-bar {
 }
 
 .project-description {
-    padding: 0 0.25rem;
+    padding: 0 0.25em;
     background-color: #d6d6d6;
     text-align: left;
 }
@@ -376,7 +377,7 @@ progress::-webkit-progress-bar {
 
 .form-group {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     color: #fff;
 }
 
@@ -432,10 +433,10 @@ progress::-webkit-progress-bar {
 }
 
 .form-group button {
-    padding: .5em 1em;
+    padding: .5em 1em; /* using em to keep it in proportion inside component */
     background: #232323;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* using rem to be proportional to the rest of the page */
     font-weight: 600;
 }
 
