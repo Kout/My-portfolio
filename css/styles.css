@@ -53,6 +53,12 @@ header {
     background-color: #fff;
 }
 
+@media only screen and (min-width: 700px) {
+    position: sticky; /* might not work in all browsers */
+    top: 0;
+    z-index: 1; /* get above all elemets */
+}
+
 .logo-link {
     flex-basis: 16vw;
     display: flex;
